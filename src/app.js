@@ -38,7 +38,7 @@ const initPlayers = (players) => {
         let obj = {
             name:players[i],
             strength: getRandomStrength(),
-            image:`images/super-${i+1}.png` ,
+            image:`./images/super-${i+1}.png` ,
             type:hero_or_villain
         }
         detailedPlayers.push(obj)
